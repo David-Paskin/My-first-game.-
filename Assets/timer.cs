@@ -8,7 +8,7 @@ public class timer : MonoBehaviour
 
     // Assign your TMP_Text or TextMeshProUGUI component in the Unity Inspector
     public TMP_Text timeText; 
-    private float time = 10.0f;
+    private float time = 15.0f;
     public int scoreValue;
 
     void Update()

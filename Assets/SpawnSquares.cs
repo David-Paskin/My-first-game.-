@@ -15,7 +15,8 @@ public class SpawnSquares : MonoBehaviour
     void Update()
     { 
         spawnTimer+=Time.deltaTime;
-    if (spawnTimer>= 1f/ spawnRate && spawnTimer<10){
+    if (spawnTimer>= spawnRate && maxSquares> 0){
+        maxSquares--;
         spawnTimer=0f;
         SpawnSquare();
     }
